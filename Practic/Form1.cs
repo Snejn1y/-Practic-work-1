@@ -29,5 +29,19 @@ namespace Practic
             }
 
         }
+
+        private void одновимірніМасивиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Array f = new Array();
+            f.Show();
+            this.Hide();
+        }
+
+        private void двовимірніМасивиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DoubleArray f = new DoubleArray();
+            f.Show();
+            this.Hide();
+        }
     }
 }
