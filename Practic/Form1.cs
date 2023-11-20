@@ -43,5 +43,12 @@ namespace Practic
             f.Show();
             this.Hide();
         }
+
+        private void labaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _4Laba f = new _4Laba();
+            f.Show();
+            this.Hide();
+        }
     }
 }
