@@ -1,5 +1,6 @@
 using Practic._4_практична;
 using Practic._5__практична;
+using Practic._6_практична;
 
 namespace Practic
 {
@@ -64,6 +65,13 @@ namespace Practic
         private void практичнаToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Pract5 f = new Pract5();
+            f.Show();
+            this.Hide();
+        }
+
+        private void практичнаToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Pract6 f = new Pract6();
             f.Show();
             this.Hide();
         }

@@ -50,6 +50,7 @@
             labaToolStripMenuItem = new ToolStripMenuItem();
             практинаToolStripMenuItem = new ToolStripMenuItem();
             практичнаToolStripMenuItem = new ToolStripMenuItem();
+            практичнаToolStripMenuItem1 = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)chart1).BeginInit();
             menuStrip1.SuspendLayout();
@@ -195,7 +196,7 @@
             // 
             // масивиToolStripMenuItem
             // 
-            масивиToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { одновимірніМасивиToolStripMenuItem, двовимірніМасивиToolStripMenuItem, labaToolStripMenuItem, практинаToolStripMenuItem, практичнаToolStripMenuItem });
+            масивиToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { одновимірніМасивиToolStripMenuItem, двовимірніМасивиToolStripMenuItem, labaToolStripMenuItem, практинаToolStripMenuItem, практичнаToolStripMenuItem, практичнаToolStripMenuItem1 });
             масивиToolStripMenuItem.Name = "масивиToolStripMenuItem";
             масивиToolStripMenuItem.Size = new Size(96, 29);
             масивиToolStripMenuItem.Text = " Масиви";
@@ -234,6 +235,13 @@
             практичнаToolStripMenuItem.Size = new Size(286, 34);
             практичнаToolStripMenuItem.Text = "5 практична";
             практичнаToolStripMenuItem.Click += практичнаToolStripMenuItem_Click;
+            // 
+            // практичнаToolStripMenuItem1
+            // 
+            практичнаToolStripMenuItem1.Name = "практичнаToolStripMenuItem1";
+            практичнаToolStripMenuItem1.Size = new Size(286, 34);
+            практичнаToolStripMenuItem1.Text = "6 практична";
+            практичнаToolStripMenuItem1.Click += практичнаToolStripMenuItem1_Click;
             // 
             // Form1
             // 
@@ -286,5 +294,6 @@
         private ToolStripMenuItem labaToolStripMenuItem;
         private ToolStripMenuItem практинаToolStripMenuItem;
         private ToolStripMenuItem практичнаToolStripMenuItem;
+        private ToolStripMenuItem практичнаToolStripMenuItem1;
     }
 }
