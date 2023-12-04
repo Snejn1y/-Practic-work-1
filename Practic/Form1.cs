@@ -1,3 +1,6 @@
+using Practic._4_практична;
+using Practic._5__практична;
+
 namespace Practic
 {
     public partial class Form1 : Form
@@ -47,6 +50,20 @@ namespace Practic
         private void labaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             _4Laba f = new _4Laba();
+            f.Show();
+            this.Hide();
+        }
+
+        private void практинаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _4pract f = new _4pract();
+            f.Show();
+            this.Hide();
+        }
+
+        private void практичнаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Pract5 f = new Pract5();
             f.Show();
             this.Hide();
         }

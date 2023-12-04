@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Practic._4_практична
+{
+    public class ArrayFileReader : IArrayReader
+    {
+        public int[] ReadArrayFromFile(string filePath)
+        {
+            string[] lines = File.ReadAllLines(filePath);
+            return lines.Select(int.Parse).ToArray();
+        }
+    }
+
+}
